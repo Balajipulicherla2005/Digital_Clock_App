@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    transition: 0.5s;
+    color: white;
+}
+
+.dark {
+    background: black;
+    color: #00ff00;
+}
+
+.container {
+    text-align: center;
+}
+
+#time {
+    font-size: 60px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}

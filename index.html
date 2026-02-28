@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultimate Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2 id="date"></h2>
+    <h1 id="time"></h1>
+
+    <button onclick="toggleMode()">Dark / Light</button>
+    <button onclick="toggleFormat()">12 / 24 Hour</button>
+
+    <hr>
+
+    <h3>Set Alarm</h3>
+    <input type="time" id="alarmTime">
+    <button onclick="setAlarm()">Set Alarm</button>
+    <button onclick="stopAlarm()">Stop Alarm</button>
+
+    <hr>
+
+    <h3>Stopwatch</h3>
+    <h2 id="stopwatch">00:00:00</h2>
+    <button onclick="startStopwatch()">Start</button>
+    <button onclick="stopStopwatch()">Stop</button>
+    <button onclick="resetStopwatch()">Reset</button>
+
+</div>
+
+<!-- Local Alarm Sound -->
+<audio id="alarmAudio" src="alarm.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
