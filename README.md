@@ -127,20 +127,7 @@ If blocked:
 
 ## 👨‍💻 Author
 
-**Balaji**  
-Beginner Web Developer 🚀  
-Learning JavaScript step-by-step through mini projects.
+**P.Balaji**  
 
----
 
-## ⭐ Project Status
 
-✔ Fully Working  
-✔ Alarm Sound Working  
-✔ Desktop Notification Working  
-✔ Stopwatch Bug Fixed  
-✔ Clean UI  
-
----
-
-🔥 Built as part of Day 28 Mini Project Practice.
